@@ -1,11 +1,10 @@
-# Original Prusa i3 MK2 Firmware
+# Prusa i3 MK2 Firmware for Lathe Printer
 
 ## General instructions
 
 Pre-compiled hex output on PRUSA RESEARCH site: http://prusa3d.com/downloads/firmware/
 
 Just download and flash it to the electronics
-
 
 ## Build instructions
 
@@ -28,6 +27,7 @@ Copy the configuration file matching your printer from variants folder to the th
 ### Step 5
 
 Rename it to "Configuration_prusa.h"
+Note: Modifications to the configuration for the drum printer are already in Configuration_prusa.h in the Firmware folder
 
 ### Step 6
 
@@ -35,7 +35,7 @@ Compile the firmware
 
 ### Step 7
 
-Upload the firmware to board
+Upload the firmware to board, ATMega2560
 
 
 
